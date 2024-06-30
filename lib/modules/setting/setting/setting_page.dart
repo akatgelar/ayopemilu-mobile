@@ -80,7 +80,7 @@ class _SettingPageState extends State<SettingPage> with SingleTickerProviderStat
                     margin: const EdgeInsets.all(5),
                     child: CircleAvatar(
                       radius: 48,
-                      backgroundImage: NetworkImage("$apiBaseUrl/uploads/thumb/${controller.session.picture}"),
+                      backgroundImage: NetworkImage("$assetBaseUrl/thumb/${controller.session.picture}"),
                     ),
                   ),
                 ),

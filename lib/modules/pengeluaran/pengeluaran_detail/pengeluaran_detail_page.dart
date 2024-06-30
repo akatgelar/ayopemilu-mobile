@@ -91,7 +91,7 @@ class _PengeluaranDetailPageState extends State<PengeluaranDetailPage> with Sing
                                   child: SizedBox(
                                     height: 200.00,
                                     width: 200.00,
-                                    child: Image.network("$apiBaseUrl/uploads/thumb/${controller.pengeluaranData.picture}"),
+                                    child: Image.network("$assetBaseUrl/thumb/${controller.pengeluaranData.picture}"),
                                   ),
                                 ),
                               ],

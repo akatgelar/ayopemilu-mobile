@@ -140,7 +140,7 @@ class _LaporanAddPageState extends State<LaporanAddPage> with SingleTickerProvid
                                             width: 200.00,
                                             child: controller.paths != null
                                                 ? Image.memory(controller.paths!.first.bytes!)
-                                                : Image.network("$apiBaseUrl/uploads/thumb/${controller.laporanData.picture}"),
+                                                : Image.network("$assetBaseUrl/thumb/${controller.laporanData.picture}"),
                                           ),
                                   ),
                                 ),

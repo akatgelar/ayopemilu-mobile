@@ -201,7 +201,7 @@ class _SettingProfilPageState extends State<SettingProfilPage> with SingleTicker
                                             width: 200.00,
                                             child: controller.paths != null
                                                 ? Image.memory(controller.paths!.first.bytes!)
-                                                : Image.network("$apiBaseUrl/uploads/thumb/${controller.userData.picture}"),
+                                                : Image.network("$assetBaseUrl/thumb/${controller.userData.picture}"),
                                           ),
                                   ),
                                 ),

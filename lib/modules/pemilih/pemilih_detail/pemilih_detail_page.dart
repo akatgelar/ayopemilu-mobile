@@ -237,7 +237,7 @@ class _PemilihDetailPageState extends State<PemilihDetailPage> with SingleTicker
                                   child: SizedBox(
                                     height: 200.00,
                                     width: 200.00,
-                                    child: Image.network("$apiBaseUrl/uploads/thumb/${controller.pemilihData.picture}"),
+                                    child: Image.network("$assetBaseUrl/thumb/${controller.pemilihData.picture}"),
                                   ),
                                 ),
                               ],

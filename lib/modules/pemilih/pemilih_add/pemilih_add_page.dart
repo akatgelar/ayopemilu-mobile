@@ -366,7 +366,7 @@ class _PemilihAddPageState extends State<PemilihAddPage> with SingleTickerProvid
                                           width: 200.00,
                                           child: controller.paths != null
                                               ? Image.memory(controller.paths!.first.bytes!)
-                                              : Image.network("$apiBaseUrl/uploads/thumb/${controller.pemilihData.picture}"),
+                                              : Image.network("$assetBaseUrl/thumb/${controller.pemilihData.picture}"),
                                         ),
                                 ),
                               ],

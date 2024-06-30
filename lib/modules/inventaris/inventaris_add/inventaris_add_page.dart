@@ -150,7 +150,7 @@ class _InventarisAddPageState extends State<InventarisAddPage> with SingleTicker
                                             width: 200.00,
                                             child: controller.paths != null
                                                 ? Image.memory(controller.paths!.first.bytes!)
-                                                : Image.network("$apiBaseUrl/uploads/thumb/${controller.inventarisData.picture}"),
+                                                : Image.network("$assetBaseUrl/thumb/${controller.inventarisData.picture}"),
                                           ),
                                   ),
                                 ),

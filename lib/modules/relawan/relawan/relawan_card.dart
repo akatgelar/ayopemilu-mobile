@@ -34,7 +34,7 @@ Card relawanCard(
             margin: const EdgeInsets.all(5),
             child: CircleAvatar(
               radius: 48,
-              backgroundImage: NetworkImage('$apiBaseUrl/uploads/thumb/$cardFoto'),
+              backgroundImage: NetworkImage('$assetBaseUrl/thumb/$cardFoto'),
               backgroundColor: ThemeColor.white,
             ),
           ),

@@ -157,7 +157,7 @@ class _RelawanDetailPageState extends State<RelawanDetailPage> with SingleTicker
                                   child: SizedBox(
                                     height: 200.00,
                                     width: 200.00,
-                                    child: Image.network("$apiBaseUrl/uploads/thumb/${controller.relawanData.picture}"),
+                                    child: Image.network("$assetBaseUrl/thumb/${controller.relawanData.picture}"),
                                   ),
                                 ),
                               ],

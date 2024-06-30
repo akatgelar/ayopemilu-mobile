@@ -107,7 +107,7 @@ class _InventarisDetailPageState extends State<InventarisDetailPage> with Single
                                   child: SizedBox(
                                     height: 200.00,
                                     width: 200.00,
-                                    child: Image.network("$apiBaseUrl/uploads/thumb/${controller.inventarisData.picture}"),
+                                    child: Image.network("$assetBaseUrl/thumb/${controller.inventarisData.picture}"),
                                   ),
                                 ),
                               ],

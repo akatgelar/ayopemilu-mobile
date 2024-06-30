@@ -117,7 +117,7 @@ class _PengeluaranAddPageState extends State<PengeluaranAddPage> with SingleTick
                                             width: 200.00,
                                             child: controller.paths != null
                                                 ? Image.memory(controller.paths!.first.bytes!)
-                                                : Image.network("$apiBaseUrl/uploads/thumb/${controller.pengeluaranData.picture}"),
+                                                : Image.network("$assetBaseUrl/thumb/${controller.pengeluaranData.picture}"),
                                           ),
                                   ),
                                 ),

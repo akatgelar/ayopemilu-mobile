@@ -104,7 +104,7 @@ class _LaporanDetailPageState extends State<LaporanDetailPage> with SingleTicker
                                   child: SizedBox(
                                     height: 200.00,
                                     width: 200.00,
-                                    child: Image.network("$apiBaseUrl/uploads/thumb/${controller.laporanData.picture}"),
+                                    child: Image.network("$assetBaseUrl/thumb/${controller.laporanData.picture}"),
                                   ),
                                 ),
                               ],
