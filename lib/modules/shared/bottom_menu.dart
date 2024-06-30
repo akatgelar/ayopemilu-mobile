@@ -88,6 +88,7 @@ _bottomNavigationBarItem({required String icon, required String label}) {
 _showModalBottomSheet(context, roleId) {
   return showModalBottomSheet(
     context: context,
+    backgroundColor: ThemeColor.background,
     builder: (context) {
       if (roleId == 3) {
         return Wrap(
