@@ -1,0 +1,31 @@
+class AppRoutes {
+  static const login = '/login';
+  static const logout = '/logout';
+  static const resetPassword = '/reset-password';
+  static const home = '/home';
+  static const pemilih = '/pemilih';
+  static const pemilihAdd = '/pemilih-add';
+  static const pemilihDetail = '/pemilih-detail';
+  static const relawan = '/relawan';
+  static const relawanAdd = '/relawan-add';
+  static const relawanDetail = '/relawan-detail';
+  static const laporan = '/laporan';
+  static const laporanAdd = '/laporan-add';
+  static const laporanDetail = '/laporan-detail';
+  static const quickcount = '/quickcount';
+  static const quickcountAdd = '/quickcount-add';
+  static const pengeluaran = '/pengeluaran';
+  static const pengeluaranAdd = '/pengeluaran-add';
+  static const pengeluaranDetail = '/pengeluaran-detail';
+  static const inventaris = '/inventaris';
+  static const inventarisAdd = '/inventaris-add';
+  static const inventarisDetail = '/inventaris-Detail';
+  static const setting = '/setting';
+  static const settingProfil = '/setting-profil';
+  static const settingPassword = '/setting-password';
+  static const settingPemilu = '/setting-pemilu';
+  static const survey = '/survey';
+  static const surveyDetail = '/survey-detail';
+  static const surveyAdd = '/survey-add';
+  static const statistik = '/statistik';
+}
