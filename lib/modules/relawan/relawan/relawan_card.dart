@@ -48,12 +48,14 @@ Card relawanCard(
                   Text(
                     '$cardNama ($cardUsia)',
                     style: styleTextNormalPrimary(),
+                    overflow: TextOverflow.clip,
+                    maxLines: 1,
                   ),
                   Text(
                     cardEmail,
                     style: styleTextNormalBlack(),
-                    maxLines: 3,
-                    softWrap: true,
+                    overflow: TextOverflow.clip,
+                    maxLines: 1,
                   ),
                   Text(
                     cardPhone,
