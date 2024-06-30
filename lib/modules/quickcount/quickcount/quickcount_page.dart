@@ -1,8 +1,8 @@
 import 'package:ayopemilu_mobile/modules/shared/header_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ayopemilu_mobile/modules/quickcount/quickcount/quickcount_list_quickcount.dart';
-import 'package:ayopemilu_mobile/modules/quickcount/quickcount/quickcount_list_statistik.dart';
+// import 'package:ayopemilu_mobile/modules/quickcount/quickcount/quickcount_list_quickcount.dart';
+// import 'package:ayopemilu_mobile/modules/quickcount/quickcount/quickcount_list_statistik.dart';
 import 'package:ayopemilu_mobile/modules/quickcount/quickcount/quickcount_controller.dart';
 import 'package:ayopemilu_mobile/themes/colors_theme.dart';
 

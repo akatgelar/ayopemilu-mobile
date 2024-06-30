@@ -2,7 +2,7 @@ import 'package:ayopemilu_mobile/modules/shared/bottom_menu.dart';
 import 'package:ayopemilu_mobile/modules/shared/header_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ayopemilu_mobile/modules/survey/survey/survey_list.dart';
+// import 'package:ayopemilu_mobile/modules/survey/survey/survey_list.dart';
 import 'package:ayopemilu_mobile/modules/survey/survey/survey_controller.dart';
 import 'package:ayopemilu_mobile/themes/colors_theme.dart';
 
