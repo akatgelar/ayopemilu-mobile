@@ -271,10 +271,10 @@ class _SettingPageState extends State<SettingPage> with SingleTickerProviderStat
                   ),
                 ),
                 const SizedBox(height: 40),
-                const Center(
+                Center(
                   child: Text(
-                    'Version $appVersion',
-                    style: TextStyle(
+                    'Version ${controller.packageInfo.version}',
+                    style: const TextStyle(
                       color: ThemeColor.grey,
                     ),
                   ),
