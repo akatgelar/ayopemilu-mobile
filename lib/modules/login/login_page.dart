@@ -1,5 +1,5 @@
 import 'package:ayopemilu_mobile/themes/app_text_theme.dart';
-import 'package:ayopemilu_mobile/utils/constants.dart';
+// import 'package:ayopemilu_mobile/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ayopemilu_mobile/modules/login/login_controller.dart';
