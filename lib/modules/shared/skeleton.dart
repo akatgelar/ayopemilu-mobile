@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:skeletons/skeletons.dart';
+// import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeleton_ui/flutter_skeleton_ui.dart';
 
 Column skeletonParagraphCustom(context) {
   return Column(

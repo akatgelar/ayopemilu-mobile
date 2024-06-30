@@ -1,7 +1,8 @@
 import 'package:ayopemilu_mobile/helpers/converter_helper.dart';
 import 'package:ayopemilu_mobile/themes/colors_theme.dart';
 import 'package:flutter/widgets.dart';
-import 'package:skeletons/skeletons.dart';
+// import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeleton_ui/flutter_skeleton_ui.dart';
 
 Container sectionContdown(context, controller) {
   return Container(

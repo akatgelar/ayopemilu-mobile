@@ -2,7 +2,8 @@ import 'package:ayopemilu_mobile/modules/shared/skeleton.dart';
 import 'package:ayopemilu_mobile/themes/colors_theme.dart';
 import 'package:ayopemilu_mobile/utils/constants.dart';
 import 'package:flutter/widgets.dart';
-import 'package:skeletons/skeletons.dart';
+// import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeleton_ui/flutter_skeleton_ui.dart';
 
 Container sectionCaleg(context, controller) {
   return Container(
@@ -29,7 +30,7 @@ Container sectionCaleg(context, controller) {
                       ),
                     )
                   : Image.network(
-                      "$apiBaseUrl/uploads/thumb/${controller.caleg.picture}",
+                      "$assetBaseUrl/thumb/${controller.caleg.picture}",
                       height: 70,
                     )),
         ),

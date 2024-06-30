@@ -3,7 +3,8 @@ import 'package:ayopemilu_mobile/modules/statistik/statistik_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 import 'package:ayopemilu_mobile/themes/colors_theme.dart';
-import 'package:skeletons/skeletons.dart';
+// import 'package:skeletons/skeletons.dart';
+import 'package:flutter_skeleton_ui/flutter_skeleton_ui.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 Container chartPemilih(context, controller) {
