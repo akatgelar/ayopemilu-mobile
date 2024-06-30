@@ -40,11 +40,12 @@ class _LaporanPageState extends State<LaporanPage> with SingleTickerProviderStat
                 headerMenu(false, false, "Laporan"),
                 TabBar(
                   padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                  unselectedLabelColor: ThemeColor.primary,
-                  indicator: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    color: ThemeColor.primary,
-                  ),
+                  dividerColor: Colors.transparent,
+                  // unselectedLabelColor: ThemeColor.primary,
+                  // indicator: BoxDecoration(
+                  //   borderRadius: BorderRadius.circular(10),
+                  //   color: ThemeColor.primary,
+                  // ),
                   tabs: <Tab>[
                     Tab(
                       height: 30,
@@ -102,7 +103,7 @@ class _LaporanPageState extends State<LaporanPage> with SingleTickerProviderStat
                     controller.changeTab();
                   },
                 ),
-                const SizedBox(height: 10),
+                // const SizedBox(height: 10),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
                   child: TextField(

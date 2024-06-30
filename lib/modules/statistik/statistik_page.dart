@@ -46,11 +46,12 @@ class _StatistikPageState extends State<StatistikPage> with SingleTickerProvider
                 // const Center(child: Text("Fitur masih dalam tahap pengembangan")),
                 TabBar(
                   padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                  unselectedLabelColor: ThemeColor.primary,
-                  indicator: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    color: ThemeColor.primary,
-                  ),
+                  dividerColor: Colors.transparent,
+                  // unselectedLabelColor: ThemeColor.primary,
+                  // indicator: BoxDecoration(
+                  //   borderRadius: BorderRadius.circular(10),
+                  //   color: ThemeColor.primary,
+                  // ),
                   tabs: <Tab>[
                     Tab(
                       height: 30,
@@ -98,7 +99,7 @@ class _StatistikPageState extends State<StatistikPage> with SingleTickerProvider
                     });
                   },
                 ),
-                const SizedBox(height: 10),
+                // const SizedBox(height: 10),
                 Expanded(
                   child: IndexedStack(
                     index: controller.selectedIndex,

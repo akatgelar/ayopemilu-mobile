@@ -44,6 +44,7 @@ class _QuickcountPageState extends State<QuickcountPage> with SingleTickerProvid
                 const Center(child: Text("Fitur masih dalam tahap pengembangan"))
                 // TabBar(
                 //   padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
+                // dividerColor: Colors.transparent,
                 //   unselectedLabelColor: ThemeColor.primary,
                 //   indicator: BoxDecoration(
                 //     borderRadius: BorderRadius.circular(10),
