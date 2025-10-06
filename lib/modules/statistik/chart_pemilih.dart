@@ -24,7 +24,7 @@ Container chartPemilih(context, controller) {
                   color: ThemeColor.white,
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
+                      color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                       blurRadius: 3,
                     ),
                   ],
@@ -62,7 +62,7 @@ Container chartPemilih(context, controller) {
                   color: ThemeColor.white,
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
+                      color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                       blurRadius: 3,
                     ),
                   ],
@@ -100,7 +100,7 @@ Container chartPemilih(context, controller) {
                   color: ThemeColor.white,
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
+                      color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                       blurRadius: 3,
                     ),
                   ],
@@ -141,7 +141,7 @@ Container chartPemilih(context, controller) {
             color: ThemeColor.white,
             boxShadow: [
               BoxShadow(
-                color: Colors.grey.withOpacity(0.5),
+                color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                 blurRadius: 3,
               ),
             ],
@@ -201,7 +201,7 @@ Container chartPemilih(context, controller) {
             color: ThemeColor.white,
             boxShadow: [
               BoxShadow(
-                color: Colors.grey.withOpacity(0.5),
+                color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                 blurRadius: 3,
               ),
             ],
@@ -214,7 +214,7 @@ Container chartPemilih(context, controller) {
                 title: ChartTitle(text: 'Demografi Calon Pemilih'),
                 backgroundColor: Colors.white,
                 onDataLabelRender: (DataLabelRenderArgs args) {
-                  double value = double.parse(args.text);
+                  double value = double.parse(args.text.toString());
                   args.text = value.toStringAsFixed(0);
                 },
                 series: <CircularSeries<VotersGender, String>>[
@@ -248,7 +248,7 @@ Container chartPemilih(context, controller) {
             color: ThemeColor.white,
             boxShadow: [
               BoxShadow(
-                color: Colors.grey.withOpacity(0.5),
+                color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                 blurRadius: 3,
               ),
             ],
@@ -261,7 +261,7 @@ Container chartPemilih(context, controller) {
                 title: ChartTitle(text: 'Agama Calon Pemilih'),
                 backgroundColor: Colors.white,
                 onDataLabelRender: (DataLabelRenderArgs args) {
-                  double value = double.parse(args.text);
+                  double value = double.parse(args.text.toString());
                   args.text = value.toStringAsFixed(0);
                 },
                 series: <CircularSeries<VotersReligion, String>>[
@@ -294,7 +294,7 @@ Container chartPemilih(context, controller) {
             color: ThemeColor.white,
             boxShadow: [
               BoxShadow(
-                color: Colors.grey.withOpacity(0.5),
+                color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                 blurRadius: 3,
               ),
             ],

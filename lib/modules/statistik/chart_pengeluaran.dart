@@ -23,7 +23,7 @@ Container chartPengeluaran(context, controller) {
                   color: ThemeColor.white,
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
+                      color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                       blurRadius: 3,
                     ),
                   ],
@@ -61,7 +61,7 @@ Container chartPengeluaran(context, controller) {
                   color: ThemeColor.white,
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
+                      color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                       blurRadius: 3,
                     ),
                   ],
@@ -101,7 +101,7 @@ Container chartPengeluaran(context, controller) {
             color: ThemeColor.white,
             boxShadow: [
               BoxShadow(
-                color: Colors.grey.withOpacity(0.5),
+                color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                 blurRadius: 3,
               ),
             ],
@@ -138,7 +138,7 @@ Container chartPengeluaran(context, controller) {
                   color: ThemeColor.white,
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
+                      color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                       blurRadius: 3,
                     ),
                   ],
@@ -176,7 +176,7 @@ Container chartPengeluaran(context, controller) {
                   color: ThemeColor.white,
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
+                      color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                       blurRadius: 3,
                     ),
                   ],
@@ -216,7 +216,7 @@ Container chartPengeluaran(context, controller) {
             color: ThemeColor.white,
             boxShadow: [
               BoxShadow(
-                color: Colors.grey.withOpacity(0.5),
+                color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                 blurRadius: 3,
               ),
             ],

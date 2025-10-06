@@ -28,7 +28,7 @@ Column sectionStatistik(context, controller) {
                 color: ThemeColor.white,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.5),
+                    color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                     spreadRadius: 1,
                     blurRadius: 3,
                     offset: const Offset(0, 3),
@@ -68,7 +68,7 @@ Column sectionStatistik(context, controller) {
                 color: ThemeColor.white,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.5),
+                    color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                     spreadRadius: 1,
                     blurRadius: 3,
                     offset: const Offset(0, 3),
@@ -108,7 +108,7 @@ Column sectionStatistik(context, controller) {
                 color: ThemeColor.white,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.5),
+                    color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
                     spreadRadius: 1,
                     blurRadius: 3,
                     offset: const Offset(0, 3),
@@ -149,7 +149,7 @@ Column sectionStatistik(context, controller) {
           color: ThemeColor.white,
           boxShadow: [
             BoxShadow(
-              color: Colors.grey.withOpacity(0.5),
+              color: Colors.grey.withValues(alpha: (0.5 * 255).toDouble()),
               spreadRadius: 1,
               blurRadius: 3,
               offset: const Offset(0, 3),

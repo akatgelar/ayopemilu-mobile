@@ -25,7 +25,7 @@ Container quickcountListStatistik(context) {
         SfCircularChart(
           backgroundColor: Colors.white,
           onDataLabelRender: (DataLabelRenderArgs args) {
-            double value = double.parse(args.text);
+            double value = double.parse(args.text.toString());
             args.text = value.toStringAsFixed(0);
           },
           series: <CircularSeries<_HasilData, String>>[
